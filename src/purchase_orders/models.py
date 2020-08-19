@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+class PurchaseOrder(models.Model):
+    game_id = stock = models.IntegerField()
+    employee_id = stock = models.IntegerField()
+    vendor_id = stock = models.IntegerField()
+    quantity = stock = models.IntegerField()
+
+    def __str__(self):
+        return self.name
