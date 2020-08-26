@@ -1,6 +1,6 @@
 from django.db import models
 
-class Sales(models.Model):
+class Sale(models.Model):
     customer_id = models.IntegerField()
     game_id = models.IntegerField()
     employee_id = models.IntegerField()
