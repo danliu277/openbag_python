@@ -1,4 +1,4 @@
-from sales.models import Vendor
+from vendors.models import Vendor
 from .serializers import VendorSerializer
 
 from rest_framework import viewsets
